@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	../sessions/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../sessions/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+AppConfig	../apps/my_app/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:4
+BASE_DIR	../sessions/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	../sessions/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	../sessions/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../sessions/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../sessions/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+MIDDLEWARE	../sessions/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+MyAppConfig	../apps/my_app/apps.py	/^class MyAppConfig(AppConfig):$/;"	kind:class	line:7
+ROOT_URLCONF	../sessions/settings.py	/^ROOT_URLCONF = 'sessions.urls'$/;"	kind:variable	line:53
+SECRET_KEY	../sessions/settings.py	/^SECRET_KEY = '6%^9jf2))r8yr#h1b-!5tp&ld!=$1t6x3x6)h+@*jo)(2^z^n&'$/;"	kind:variable	line:23
+STATIC_URL	../sessions/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+TEMPLATES	../sessions/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	../sessions/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
+TestCase	../apps/my_app/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:4
+USE_I18N	../sessions/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_L10N	../sessions/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_TZ	../sessions/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+WSGI_APPLICATION	../sessions/settings.py	/^WSGI_APPLICATION = 'sessions.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	../apps/__init__.py	1;"	kind:file	line:1
+__init__.py	../apps/my_app/__init__.py	1;"	kind:file	line:1
+__init__.py	../apps/my_app/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../sessions/__init__.py	1;"	kind:file	line:1
+admin	../apps/my_app/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:4
+admin	../sessions/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	../apps/my_app/admin.py	1;"	kind:file	line:1
+application	../sessions/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../apps/my_app/apps.py	1;"	kind:file	line:1
+django	../manage.py	/^            import django$/;"	kind:namespace	line:14
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+get_wsgi_application	../sessions/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+manage.py	../manage.py	1;"	kind:file	line:1
+models	../apps/my_app/models.py	/^from django.db import models$/;"	kind:namespace	line:4
+models.py	../apps/my_app/models.py	1;"	kind:file	line:1
+name	../apps/my_app/apps.py	/^    name = 'my_app'$/;"	kind:variable	line:8
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+os	../sessions/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../sessions/wsgi.py	/^import os$/;"	kind:namespace	line:10
+render	../apps/my_app/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:4
+settings.py	../sessions/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../apps/my_app/tests.py	1;"	kind:file	line:1
+unicode_literals	../apps/my_app/admin.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+unicode_literals	../apps/my_app/apps.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+unicode_literals	../apps/my_app/models.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+unicode_literals	../apps/my_app/tests.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+unicode_literals	../apps/my_app/views.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+url	../apps/my_app/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+url	../sessions/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
+url_patterns	../apps/my_app/urls.py	/^url_patterns = [$/;"	kind:variable	line:3
+urlpatterns	../sessions/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../apps/my_app/urls.py	1;"	kind:file	line:1
+urls.py	../sessions/urls.py	1;"	kind:file	line:1
+views	../apps/my_app/urls.py	/^from . import views$/;"	kind:namespace	line:2
+views.py	../apps/my_app/views.py	1;"	kind:file	line:1
+wsgi.py	../sessions/wsgi.py	1;"	kind:file	line:1
